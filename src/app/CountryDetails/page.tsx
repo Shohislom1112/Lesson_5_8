@@ -1,11 +1,11 @@
 import React from "react";
 
-const CountryDetailsPage = () => {
+const CountryDetails = () => {
   return (
     <div>
-      <h1>CountryDetailsPage</h1>
+      <h1></h1>
     </div>
   );
 };
 
-export default CountryDetailsPage;
+export default CountryDetails;

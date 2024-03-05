@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -19,5 +19,12 @@
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+} */
+
+@layer base {
+  body {
+    @apply dark:bg-gray-800 bg-white;
+    transition: 0.5s;
   }
 }
